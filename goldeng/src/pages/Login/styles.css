@@ -1,0 +1,35 @@
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=password] {
+    flex: 1;
+    background: #F0F0F5;
+    border-radius: 8px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6C6C80;
+}
+  
+input::placeholder {
+    color: #A0A0B2;
+}
+  
+input[type=checkbox] {
+    background: #F0F0F5;
+}
+  
+button {
+    width: 100px;
+    height: 40px;
+    background: rgba(227, 32, 49, 0.85);
+    border-radius: 8px;
+    color: black;
+    border: 0;
+    align-self: flex-end;
+    margin-top: 8px;
+}
+  
+button:hover {
+    background: rgba(227, 32, 49, 1);
+}

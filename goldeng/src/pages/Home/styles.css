@@ -1,0 +1,16 @@
+.mt-n1{
+    margin-top: -0.5rem;
+}
+
+button {
+    height: 30px;
+    background: rgba(227, 32, 49, 0.85);
+    border-radius: 8px;
+    color: black;
+    border: 0;
+    align-self: flex-end;
+}
+  
+button:hover {
+    background: rgba(227, 32, 49, 1);
+}
